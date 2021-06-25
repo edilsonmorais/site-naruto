@@ -1,0 +1,49 @@
+#container {
+    width: auto;
+    background-color: aqua;
+}
+
+.header {
+    background: url('../img/capa2.png') no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin: 0 50px 50px 50px;
+    width: auto;
+    height: 330px;
+}
+
+#cabecalho_texto {
+    background: #fff;
+    /* width: 450px; */
+    width: 40%;
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #f00 #0f0 #00f #fc0;
+    position: relative;
+    top: 30%;
+    opacity: 80%;
+    margin-left: 5%;
+    padding-left: 0.05%;
+    padding-bottom: 0.05%;
+}
+
+.header h2 {
+    color: #f37;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.header p {
+    color: #00f;
+    margin-left: 3%;
+    /* font-size: clamp(1em, 1em + 1vw, 1.5em); */
+    font-size: .85em;
+    font-weight: bold;
+}
+
+footer {
+    width: auto;
+    height: 256px;
+    background: lightsalmon;
+}
