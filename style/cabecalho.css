@@ -1,9 +1,11 @@
 #container {
-    width: auto;
+    width: 1145px;
     background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.header {
+.header-cabecalho {
     background: url('../img/capa2.png') no-repeat;
     background-position: center;
     background-size: auto;
