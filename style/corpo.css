@@ -1,0 +1,38 @@
+.painel {
+    /* width: auto; */
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 300px;
+    background: rgb(241, 91, 91);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.division {
+    background: gold;
+    width: 35%;
+    height: auto;
+    margin: 10px 5px 10px 2px;
+}
+
+.numeracao {
+    background: greenyellow;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;    
+    display: flex;
+    align-items: center;  /*centraliza itens na vertical*/ 
+    justify-content: center; /*centraliza itens na horizontal*/
+    position: relative;
+    top: 3%;
+    left: 2%;    
+}
+
+
+/* .numeracao h3 {
+    display: flex;
+    align-items: center;  /*centraliza itens na vertical 
+    justify-content: center; /*centraliza itens na horizontal
+} */
